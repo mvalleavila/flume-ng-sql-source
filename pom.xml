@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mvalle.flume</groupId>
     <artifactId>flume-ng-sql-source</artifactId>
-    <version>1.4.4-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
 
     <packaging>jar</packaging>
 
