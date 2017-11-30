@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.keedio.flume.flume-ng-sources</groupId>
+    <groupId>org.mvalle.flume</groupId>
     <artifactId>flume-ng-sql-source</artifactId>
     <version>1.4.4-SNAPSHOT</version>
 
@@ -11,7 +11,7 @@
 
     <description>This project is used for flume-ng to import data from SQL databases.</description>
 
-    <url>https://github.com/keedio/flume-ng-sql-source</url>
+    <url>https://github.com/mvalleavila/flume-ng-sql-source</url>
 
     <licenses>
         <license>
@@ -29,9 +29,7 @@
         </developer>
         <developer>
             <name>Marcelo Valle Ávila</name>
-            <email>mvalle@keedio.org</email>
-            <organization>Keedio</organization>
-            <organizationUrl>http://www.keedio.com</organizationUrl>
+            <email>mvalleavila@gmail.com</email>
         </developer>
         <developer>
             <name>Luca Rosellini</name>
@@ -42,9 +40,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:keedio/flume-ng-sql-source.git</connection>
-        <developerConnection>scm:git:git@github.com:keedio/flume-ng-sql-source.git</developerConnection>
-        <url>https://github.com/keedio/flume-ng-sql-source.git</url>
+        <connection>scm:git:git@github.com:mvalleavila/flume-ng-sql-source.git</connection>
+        <developerConnection>scm:git:git@github.com:mvalleavila/flume-ng-sql-source.git</developerConnection>
+        <url>https://github.com/mvalleavila/flume-ng-sql-source.git</url>
     </scm>
 
     <dependencies>
@@ -150,9 +148,5 @@
             </plugin>
         </plugins>
     </build>
-    <organization>
-    	<name>Keedio</name>
-    	<url>www.keedio.org</url>
-    </organization>
 </project>
 
